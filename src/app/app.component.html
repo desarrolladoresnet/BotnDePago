@@ -1,3 +1,8 @@
-
-<router-outlet></router-outlet>
-<app-login></app-login>
+<div *ngIf="!user; else isUser">
+    <app-login></app-login>
+</div>
+<ng-template #isUser>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</ng-template>
