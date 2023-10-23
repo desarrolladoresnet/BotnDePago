@@ -1,0 +1,390 @@
+.fondo{
+  background-image: url('../../../assets/img/tr9.jpg');
+  position: absolute;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+H1{
+  text-align: center;
+}
+.mat-tab-group{
+  padding-top: 20px;
+  font-size: 2px;
+}
+.card-container{
+  top: 20px;
+  display: flex;
+  position: relative;
+  left: 39rem;
+  background-color: #dededea2;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.card-body{
+ margin: 20px;
+}
+.card-header{
+  margin: 20px;
+  font-weight: 800;
+}
+p{
+  margin: 20px;
+}
+img{
+  display: flex;
+  position: relative;
+  top: 20px; 
+  width: 250px;
+  left: 83%;
+}
+.mat-card{
+  height: 50vh;
+  width: 350px;
+  border-radius: 20px;
+}
+.btn{
+  background-color: rgb(0, 140, 255);
+  padding: 13px 60px;
+  color: #fff;
+  border-width: 1px;
+  border-radius: 30px!important;
+  font-weight: 400;
+  user-select: none;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 15px;
+  position: relative;
+  top: 30px;
+  left: 66%;
+}
+.mat-mdc-tab .mdc-tab__text-label{
+  font-weight: 900;
+  color: black;
+}
+@media (max-width: 1024px) {
+  .fondo {
+    background-image: url('../../../assets/img/tr9.jpg');
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  H1 {
+    text-align: center;
+    font-size: 24px; /* Cambia el tamaño de fuente para pantallas más pequeñas */
+  }
+  
+  .mat-tab-group {
+    padding-top: 10px; /* Reduce el espacio superior en pantallas más pequeñas */
+    font-size: 16px; /* Cambia el tamaño de fuente para pantallas más pequeñas */
+  }
+  
+  .card-container {
+    top: 20px;
+    display: flex;
+    position: relative;
+    left: 95%; /* Cambia la posición izquierda para centrar en pantallas más pequeñas */
+    background-color: #dededea2;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  
+  .card-body {
+    margin: 20px;
+  }
+  
+  .card-header {
+    margin: 20px;
+    font-weight: 800;
+  }
+  
+  p {
+    margin: 20px;
+  }
+  
+  img {
+    display: flex;
+    position: relative;
+    top: 20px;
+    width: 150px; /* Cambia el tamaño de las imágenes para pantallas más pequeñas */
+    left: auto; /* Elimina la propiedad 'left' para que las imágenes se centren horizontalmente */
+  }
+  
+  .mat-card {
+    height: auto; /* Cambia la altura a automática para que se adapte al contenido */
+    width: 80%; /* Cambia el ancho para que se adapte mejor a pantallas más pequeñas */
+    max-width: 350px; /* Establece un ancho máximo para evitar que sea demasiado ancho en pantallas grandes */
+    border-radius: 20px;
+  }
+  
+  .btn {
+    background-color: rgb(0, 140, 255);
+    padding: 13px 30px; /* Ajusta el relleno del botón para pantallas más pequeñas */
+    color: #fff;
+    border-width: 1px;
+    border-radius: 30px!important;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 15px;
+    position: relative;
+    top: 30px;
+    left: 30%; /* Elimina la propiedad 'left' para centrar el botón horizontalmente */
+  }
+  
+  .mat-mdc-tab .mdc-tab__text-label {
+    font-weight: 900;
+    color: black;
+  }
+  
+}
+@media (max-width: 768px) {
+  .fondo {
+    background-image: url('../../../assets/img/tr9.jpg');
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  H1 {
+    text-align: center;
+    font-size: 24px; /* Cambia el tamaño de fuente para pantallas más pequeñas */
+  }
+  
+  .mat-tab-group {
+    padding-top: 10px; /* Reduce el espacio superior en pantallas más pequeñas */
+    font-size: 16px; /* Cambia el tamaño de fuente para pantallas más pequeñas */
+  }
+  
+  .card-container {
+    top: 20px;
+    display: flex;
+    position: relative;
+    left: 61%; /* Cambia la posición izquierda para centrar en pantallas más pequeñas */
+    background-color: #dededea2;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  
+  .card-body {
+    margin: 20px;
+  }
+  
+  .card-header {
+    margin: 20px;
+    font-weight: 800;
+  }
+  
+  p {
+    margin: 20px;
+  }
+  
+  img {
+    display: flex;
+    position: relative;
+    top: 20px;
+    width: 150px; /* Cambia el tamaño de las imágenes para pantallas más pequeñas */
+    left: auto; /* Elimina la propiedad 'left' para que las imágenes se centren horizontalmente */
+  }
+  
+  .mat-card {
+    height: auto; /* Cambia la altura a automática para que se adapte al contenido */
+    width: 80%; /* Cambia el ancho para que se adapte mejor a pantallas más pequeñas */
+    max-width: 350px; /* Establece un ancho máximo para evitar que sea demasiado ancho en pantallas grandes */
+    border-radius: 20px;
+  }
+  
+  .btn {
+    background-color: rgb(0, 140, 255);
+    padding: 13px 30px; /* Ajusta el relleno del botón para pantallas más pequeñas */
+    color: #fff;
+    border-width: 1px;
+    border-radius: 30px!important;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 15px;
+    position: relative;
+    top: 30px;
+    left: 24.5%; /* Elimina la propiedad 'left' para centrar el botón horizontalmente */
+  }
+  
+  .mat-mdc-tab .mdc-tab__text-label {
+    font-weight: 900;
+    color: black;
+  }
+  
+}
+@media (max-width: 480px) {
+  .fondo {
+    background-image: url('../../../assets/img/tr9.jpg');
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  H1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 24px; /* Cambia el tamaño de fuente para pantallas más pequeñas */
+  }
+  
+  .mat-tab-group {
+    padding-top: 10px; /* Reduce el espacio superior en pantallas más pequeñas */
+    font-size: 16px; /* Cambia el tamaño de fuente para pantallas más pequeñas */
+  }
+  
+  .card-container {
+    top: 20px;
+    display: flex;
+    position: relative;
+    left: 13%; /* Cambia la posición izquierda para centrar en pantallas más pequeñas */
+    background-color: #dededea2;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  
+  .card-body {
+    margin: 20px;
+  }
+  
+  .card-header {
+    margin: 20px;
+    font-weight: 800;
+  }
+  
+  p {
+    margin: 20px;
+  }
+  
+  img {
+    display: flex;
+    position: relative;
+    top: 20px;
+    width: 150px; /* Cambia el tamaño de las imágenes para pantallas más pequeñas */
+    left: auto; /* Elimina la propiedad 'left' para que las imágenes se centren horizontalmente */
+  }
+  
+  .mat-card {
+    height: auto; /* Cambia la altura a automática para que se adapte al contenido */
+    width: 80%; /* Cambia el ancho para que se adapte mejor a pantallas más pequeñas */
+    max-width: 350px; /* Establece un ancho máximo para evitar que sea demasiado ancho en pantallas grandes */
+    border-radius: 20px;
+  }
+  
+  .btn {
+    background-color: rgb(0, 140, 255);
+    padding: 13px 20px; /* Ajusta el relleno del botón para pantallas más pequeñas */
+    color: #fff;
+    border-width: 1px;
+    border-radius: 30px!important;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 12px;
+    left: 8%; /* Elimina la propiedad 'left' para centrar el botón horizontalmente */
+  }
+  
+  .mat-mdc-tab .mdc-tab__text-label {
+    font-weight: 900;
+    color: black;
+  }
+  
+}
+@media (max-width: 320px) {
+  .fondo {
+    background-image: url('../../../assets/img/tr9.jpg');
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  H1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 24px; /* Cambia el tamaño de fuente para pantallas más pequeñas */
+  }
+  
+  .mat-tab-group {
+    padding-top: 10px; /* Reduce el espacio superior en pantallas más pequeñas */
+    font-size: 16px; /* Cambia el tamaño de fuente para pantallas más pequeñas */
+  }
+  
+  .card-container {
+    top: 20px;
+    display: flex;
+    position: relative;
+    left: 13%; /* Cambia la posición izquierda para centrar en pantallas más pequeñas */
+    background-color: #dededea2;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  
+  .card-body {
+    margin: 20px;
+  }
+  
+  .card-header {
+    margin: 20px;
+    font-weight: 800;
+  }
+  
+  p {
+    margin: 20px;
+  }
+  
+  img {
+    display: flex;
+    position: relative;
+    top: 20px;
+    width: 150px; /* Cambia el tamaño de las imágenes para pantallas más pequeñas */
+    left: auto; /* Elimina la propiedad 'left' para que las imágenes se centren horizontalmente */
+  }
+  
+  .mat-card {
+    height: auto; /* Cambia la altura a automática para que se adapte al contenido */
+    width: 80%; /* Cambia el ancho para que se adapte mejor a pantallas más pequeñas */
+    max-width: 350px; /* Establece un ancho máximo para evitar que sea demasiado ancho en pantallas grandes */
+    border-radius: 20px;
+  }
+  
+  .btn {
+    background-color: rgb(0, 140, 255);
+    padding: 13px 11px; /* Ajusta el relleno del botón para pantallas más pequeñas */
+    color: #fff;
+    border-width: 1px;
+    border-radius: 30px!important;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 12px;
+    left: auto; /* Elimina la propiedad 'left' para centrar el botón horizontalmente */
+  }
+  
+  .mat-mdc-tab .mdc-tab__text-label {
+    font-weight: 900;
+    color: black;
+  }
+  
+}

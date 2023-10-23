@@ -1,0 +1,78 @@
+.container {
+    background-color: #ffffff15;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    width: 350px;
+    border-radius: 20px;
+}
+.page-header-image {
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.form-control, .input-group.form-group-no-border .form-control+.input-group-text {
+    background-color: #dededea2;
+    border: medium none;
+    font-weight: 700;
+}
+
+.form-control {
+    padding: 14px 50px;
+    margin-bottom: 28px;
+}
+.btn{
+    background-color: rgb(0, 140, 255);
+    padding: 13px 60px;
+    color: #fff;
+    border-width: 1px;
+    border-radius: 30px!important;
+    font-weight: 400;
+    user-select: none;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+.footer{
+margin-top: 40px;
+}
+.login-page .card-login .logo-container img {
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    border-radius: 1px;
+    height: 6rem;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.transparencia{
+    position: absolute; /* Posición absoluta para cubrir la imagen */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ancho del contenedor */
+    height: 100%; /* Altura del contenedor */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo{
+    display: flex;
+    position: relative;
+    left: 38rem;
+    bottom: 34.5rem;
+}
+H1{
+    padding-bottom: 60px;
+}
+input[type="text" i] {
+    text-align: center;
+}
+
+
