@@ -17,5 +17,7 @@ export class AppComponent implements OnInit{
 ngOnInit(): void {
   this.user = this.storageService.getUser();
   if (this.user) console.log("Inicio",this.user);
+
+  document.cookie = 'XSRF-TOKEN=my-token; expires=Thu, 31 Dec 9999 23:59:59 GMT; path=/';
 }
 }

@@ -11,7 +11,14 @@ export class LoginService {
   constructor(private http: HttpClient) { }
 
   LoginUser(data: {username: string, password: string}): Observable<ILogin>{
-    return this.http.post<ILogin>("http://127.0.0.1:8000/clientes/login/", data)
+    // Create a new HttpHeaders object
+    const headers = new HttpHeaders();
+
+    // Omit the x-xsrf-token header
+    headers.append('Accept', 'application/json');
+
+    // Make the POST request to the login endpoint
+    return this.http.post<ILogin>("http://127.0.0.1:8000/clientes/login/", data, { headers });
   }
 
 }

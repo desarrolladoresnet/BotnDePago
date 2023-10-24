@@ -34,7 +34,7 @@ export class StorageService {
       return JSON.parse(username);
     }
 
-    return {};
+    return false;
   }
 
   public isLoggedIn(): boolean {
